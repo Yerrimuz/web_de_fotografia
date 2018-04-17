@@ -1,0 +1,100 @@
+ body{
+background-color: #02010a;
+text-align: center;
+border-radius: 10px;
+display: block;
+font-family: 'Dancing Script', cursive;
+}
+header{
+background-color: #5b7989;
+color: #FFF;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px 10px 0 0;
+}
+
+li{
+list-style: none;
+}
+li a{
+color: #FFF;
+}
+
+ul{
+display: flex;
+}
+
+header h1{
+text-shadow: 2px 2px #02010a;
+margin: 5px;
+}
+ a{
+   padding: 15px;
+ }
+ img{
+   box-shadow: 2px 2px 2px #02010a;
+ }
+
+.montana{
+  padding: 20px;
+  background-color: #82c3a6;
+}
+
+.contenedor {
+  display: flex;
+  background-color: #d5c75f;
+  justify-content: center;
+}
+
+.paisaje{
+  padding-top: 50px;
+  margin: 40px;
+  width: 50%;
+}
+
+.atardecer{
+  padding-top: 50px;
+  margin: 40px;
+  width: 50%;
+}
+
+.pie{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto, .terminos, .redes, .derechos{
+  margin: 10px;
+}
+
+@media screen and (min-width:900px){
+h1{
+  justify-content: center;
+}
+body{
+  justify-content: center;
+}
+}
+
+@media screen and (max-width:900px){
+
+.natural, .camboya, .montana img{
+width:100%;
+}
+
+.contenedor{
+flex-direction:column;
+}
+
+.contenedor, header, .pie{
+flex-direction:column;
+}
+
+.contenido div{
+margin: 0 auto;
+}
+
+}

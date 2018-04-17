@@ -1,0 +1,136 @@
+body{
+background-color: #02010a;
+text-align: center;
+border-radius: 10px;
+display: block;
+font-family: 'Dancing Script', cursive;
+}
+header{
+background-color: #5b7989;
+color: #FFF;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px 10px 0 0;
+}
+
+li{
+list-style: none;
+}
+li a{
+color: #FFF;
+}
+
+ul{
+display: flex;
+}
+
+header h1{
+text-shadow: 2px 2px #02010a;
+margin: 5px;
+}
+ a{
+   padding: 15px;
+ }
+
+ .contenido {
+   display: flex;
+   background-color: #d5c75f;
+   justify-content: center;
+ }
+.contenido2 {
+  display: flex;
+  background-color: #d5c75f;
+  justify-content: center;
+}
+img{
+  margin: 20px;
+}
+
+ .pie{
+   border-radius: 0 0 10px 10px;
+   background-color: #C6d5c5;
+   display: flex;
+   justify-content: center;
+ }
+
+ .contacto, .terminos, .redes, .derechos{
+   margin: 10px;
+ }
+
+ @media screen and (min-width:900px){
+   h1{
+    text-align: center;
+   }
+   body{
+     text-align: center;
+  }
+  .pie{
+    text-align: center;
+  }
+ }
+
+ @media screen and (max-width:900px){
+
+
+ .contenido{
+ flex-direction:column;
+ }
+
+.paisaje{
+  width: 100%;
+}
+
+.camboya{
+  width: 100%;
+}
+
+  .paisaje1{
+ width: 100%;
+}
+
+.camboya1{
+  width: 100%;
+}
+
+.paisaje2{
+ width: 100%;
+}
+
+.camboya2{
+  width: 100%;
+}
+
+.contenido2{
+flex-direction: column;
+}
+
+.paisaje3{
+ width: 100%;
+}
+
+.camboya3{
+  width: 100%;
+}
+
+.paisaje4{
+ width: 100%;
+}
+
+.camboya4{
+  width: 100%;
+}
+
+.paisaje5{
+  width: 100%;
+}
+
+.camboya5{
+  width: 100%;
+}
+
+ .contenedor, header, .pie{
+ flex-direction:column;
+ }
+
+ }
